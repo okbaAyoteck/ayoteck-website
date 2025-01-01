@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYOTECK LLC GENERAL TRADING</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .contact-info {
+            margin-top: 20px;
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .contact-info h2 {
+            margin: 0;
+        }
+        .laptop-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .laptop-gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .laptop-gallery img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AYOTECK LLC GENERAL TRADING</h1>
+        <p>Your trusted partner for new and used laptops in UAE</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>About Us</h2>
+            <p>AYOTECK LLC GENERAL TRADING specializes in the sale of new and used laptops in the UAE. We provide high-quality devices to meet your personal and professional needs. Visit us at Mussaffah, Abu Dhabi, or contact us for more details.</p>
+        </section>
+
+        <section class="laptop-gallery">
+            <h2>Our Products</h2>
+            <img src="https://via.placeholder.com/200x150?text=Laptop+1" alt="Laptop 1">
+            <img src="https://via.placeholder.com/200x150?text=Laptop+2" alt="Laptop 2">
+            <img src="https://via.placeholder.com/200x150?text=Laptop+3" alt="Laptop 3">
+            <img src="https://via.placeholder.com/200x150?text=Laptop+4" alt="Laptop 4">
+        </section>
+
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p><strong>Address:</strong> Mussaffah, Abu Dhabi</p>
+            <p><strong>Email:</strong> <a href="mailto:ayoteckgeneral@gmail.com">ayoteckgeneral@gmail.com</a></p>
+            <p><strong>Phone:</strong> +213 661 29 92 85 (Algeria), +971 5 63 56 60 20 (UAE)</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 AYOTECK LLC GENERAL TRADING. All rights reserved.</p>
+    </footer>
+</body>
+</html>
